@@ -21,7 +21,7 @@ export default function TaskItem({ task, removeTask, getStatus }) {
     <div className={`task ${task.color} ${task.status}`}>
       <div className="taskContent">
         <strong>
-          Завдання {task.title}.
+          Завдання <br /> {task.title}
         </strong>
         <div className="taskDescriptoin">
           <i>{task.description}</i>

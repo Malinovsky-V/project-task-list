@@ -12,6 +12,7 @@ export default function GroupList({
 }) {
   return (
     <div className="task-group">
+     <h1  className="title title-main">To Do list...</h1>
       {groups.map((group) => (
         <TaskList
           nameGroup={group.value}

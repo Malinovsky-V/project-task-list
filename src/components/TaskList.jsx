@@ -8,7 +8,7 @@ export default function TaskList({ nameGroup, tasks, getStatus, removeTask, remo
           X
         </span>
         <div className="task-group">
-      <h1 className="title">{nameGroup}</h1>
+      <h1 className="title title-group">{nameGroup}</h1>
       { tasks.length !== 0 ?
       tasks.map((task) => (
           (task.group === nameGroup ?
