@@ -1,0 +1,8 @@
+.mySelect {
+    width: 20%;
+    height: 40px;
+    padding: 5px 15px;
+    margin: 10px;
+    border: 2px solid rgb(1, 148, 45);
+    background-color: rgb(226, 220, 220);
+}
