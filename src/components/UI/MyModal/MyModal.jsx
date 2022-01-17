@@ -11,8 +11,8 @@ export default function MyModal({ children, visible, setVisible }) {
   return (
     <div className={rootClasses.join(" ")} onClick={(e) => e.stopPropagation()}>
       <div className={classes.myModalContent}>
-        <span className="closebtn" onClick={() => setVisible(false)}>
-          X
+        <span className="close-btn" onClick={() => setVisible(false)}>
+          +
         </span>
         {children}
       </div>
